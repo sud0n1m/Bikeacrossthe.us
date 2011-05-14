@@ -1,0 +1,406 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Bike Across The US</title>
+	<script type="text/javascript" src="http://api.maps.yahoo.com/ajaxymap?v=3.8&appid=y.gtbqHV34FPvn8XdDSdKf455G1UIJFpRW1qLdIgI_8Z7LuIhQU6Lg8UG1gSzA--"></script>
+	<script type="text/javascript" src="/jquery.js"></script>
+	<script type="text/javascript" src="/thickbox.js"></script>
+
+    <script src="http://bikeacrossthe.us/data.json"></script>
+	<script type="text/javascript">
+	</script>
+	<link rel="stylesheet" href="/style.css" type="text/css" />
+	<link rel="stylesheet" href="/thickbox.css" type="text/css" />
+	
+  </head>
+  <body>
+	<div id="container">
+    <div class="menu">
+
+        <ul>
+          <li><a href="#TB_inline?height=400&width=450&inlineId=bike_about" class="thickbox">About</a></li>
+          <li><a href="#TB_inline?height=150&width=300&inlineId=bike_contact" class="thickbox">Contact</a></li>
+        <!--  <li><a href="#TB_inline?height=495&width=500&inlineId=bike_donate" class="thickbox">Donate</a></li>
+--!>        
+</ul>
+      </div>
+    <a href="/"><h1 class="banner"><span>Bike Across the US - a cross country bike trip from San Francisco to Boston</span></h1></a>
+
+<div id="bike_notliveyet">
+<h3>I'm done!</h3>
+The trip has finished, and I've moved to New York, NY for work. Find me at <a href="http://colin.nederkoorn.co.uk">colin.nederkoorn.co.uk</a>. Sign up below and I'll let you know if and when I go on another adventure!<br/><br/>
+<form action="http://bikeacrosstheus.cmail1.com/s/367049/" method="post">
+<table cellspacing="0" cellpadding="4" border="0">
+<tr valign="top">
+  <td align="right"><label for="l367049-367049"><strong>Email address:</strong></label></td>
+  <td>&nbsp;<input type="text" name="cm-367049-367049" id="l367049-367049" size="20" /></td>
+  <td>&nbsp;<input type="submit" value="Subscribe" /></td>
+</tr>
+
+</table>
+</form>
+</div>
+
+
+<div id="bike_map">
+<h3>where am I?</h3>
+<div id="map"></div>
+</div>
+
+<div id="bike_stats">
+<!-- fundraising_goal is another option -->
+  <ul>
+    <li><span id="bike_stats_large">54</span> days</li>
+
+    <li><span id="bike_stats_large">4062.0</span> miles</li>
+    <li><span id="bike_stats_large">$3120</span> raised for Kick for Nick</li>
+</div>
+
+
+
+<div id="bike_latest">
+  <h3>latest</h3>
+
+<div id="twitter_div">
+  <ul id="twitter_update_list"></ul>
+</div>
+<a href="http://twitter.com/bikeacrosstheus">read more</a>
+</div>
+
+<div id="bike_pictures">
+  <h3>pictures</h3>
+  <p><a href="http://www.flickr.com/photos/colin_n/sets/72157605718752018/show/">slideshow</a></p>
+<div id="flickr_badge_uber_wrapper"><div id="flickr_badge_wrapper">
+<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=5&display=latest&size=s&layout=x&source=user_set&user=7772848%40N04&set=72157605718752018&context=in%2Fset-72157605718752018%2F"></script>
+
+</div></div>
+
+<!-- End of Flickr Badge -->
+<a href="http://www.flickr.com/photos/colin_n/sets/72157605718752018">see more</a>
+</div>
+
+
+
+<div id="bike_sponsors">
+<h3>sponsors</h3>
+
+<p>$1580 raised for Kick for Nick. <a href="#TB_inline?height=400&width=450&inlineId=bike_donate" class="thickbox">Donate</a> and get your link below</p>
+
+<ul>
+  
+    <li>
+    Jon Pierce $500 
+    
+      <div style="margin-left: 1em"><a href="http://virosity.com">Virosity</a></div>
+    
+    
+    </li>
+  
+    <li>
+    Aunt Carol $200 
+    
+    
+    </li>
+  
+    <li>
+    The van den Bergh's $200 
+    
+    
+    </li>
+
+  
+    <li>
+    Rodney Weiss $200 
+    
+      <div style="margin-left: 1em"><a href="http://flavorbean.com">Flavorbean Coffee</a></div>
+    
+    
+    </li>
+  
+    <li>
+    Marc Kerrest $200 
+    
+    
+    </li>
+  
+    <li>
+    Anonymous $160 
+    
+    
+    </li>
+
+  
+    <li>
+    Leah McCurry $100 
+    
+    
+    </li>
+  
+    <li>
+    Deborah DeFelice $100 
+    
+    
+    </li>
+  
+    <li>
+    Alli's change jar $100 
+    
+      <div style="margin-left: 1em"><a href="http://www.myspace.com/kickfornickboston">Kick For Nick Boston Fundraising</a></div>
+    
+    
+    </li>
+
+  
+    <li>
+    Kristian Zuzek $80 
+    
+      <div style="margin-left: 1em"><a href="http://warmpulse.com">Warm Pulse</a></div>
+    
+    
+    </li>
+  
+    <li>
+    Juliana Kerrest $80 
+    
+    
+    </li>
+  
+    <li>
+    Mark Doerschlag $50 
+    
+    
+    </li>
+
+  
+    <li>
+    Liz and Tony Segal $50 
+    
+    
+    </li>
+  
+    <li>
+    Carol Reece $50 
+    
+    
+    </li>
+  
+    <li>
+    Nicole (and Keller) $50 
+    
+    
+    </li>
+  
+    <li>
+
+    jeff $50 
+    
+    
+    </li>
+  
+    <li>
+    Bumba $50 
+    
+    
+    </li>
+  
+    <li>
+    Aunt Carol $37 
+    
+    
+    </li>
+  
+    <li>
+    jim toth $35 
+    
+    
+    </li>
+
+  
+    <li>
+    Caroline van den Bergh $30 
+    
+    
+    </li>
+  
+    <li>
+    L Godfrey $30 
+    
+    
+    </li>
+  
+    <li>
+    KyAnn $25 
+    
+    
+    </li>
+  
+    <li>
+
+    Ryan G $25 
+    
+    
+    </li>
+  
+    <li>
+    Amanda Nederkoorn $20 
+    
+    
+    </li>
+  
+    <li>
+    David Allan $20 
+    
+    
+    </li>
+  
+    <li>
+    Kristina Medhus $20 
+    
+    
+    </li>
+
+  
+    <li>
+    Tiffany van den Bergh $20 
+    
+    
+    </li>
+  
+    <li>
+    Breck $20 
+    
+    
+    </li>
+  
+    <li>
+    Dan Choi $15 
+    
+    
+    </li>
+  
+</il>
+
+</div>
+
+
+<div id="bike_about">
+  <h2>About the trip</h2>
+  <p>I was inspired by <a href="http://biketripblog.com">Lee and Brent's trip</a> from North Carolina to San Francisco and thought "wouldn't that be great!". I bought my bike over Christmas and have been braving Boston's winter to train since.</p>
+
+  <h3>About Colin Nederkoorn</h3>
+
+  <p><img src="Colin_Small.jpg" align="right"><a href="http://topstartup.com">Colin Nederkoorn</a> grew up in Singapore then studied for two years in London before moving to the US for the first time at age 18. Here he did his undergrad work at Rensselaer Polytechnic Institute where he got his degree in Management. After a few year interval working as a shipbroker in Houston, Colin moved to Boston and returned to the field he enjoys most: internet startups. Most recently he was part of the team building <a href="http://good2gether.com">good2gether</a>, a startup that helps nonprofits get their message heard. After the bike trip, Colin will be looking to work with others to build "the next big thing"</p>
+
+</div>
+
+<div id="bike_contact">
+  <h2>Contact</h2>
+  <p>I'll be far away but hopefully reachable</p>
+
+  <h3>Colin</h3>
+  <ul>
+    <li>Phone / SMS: <strong>+1 617 818 5576</strong></li>
+    <li>Twitter: <a href="http://twitter.com/bikeacrosstheus">bikeacrosstheus</a></li>
+<li>Facebook: <a href="http://www.facebook.com/people/Colin_Nederkoorn/17507059">Colin Nederkoorn</a></li>
+  </ul>
+
+</div>
+
+  <div id="bike_donate">
+
+  <!--<h2>Donate</h2>
+  <div style="float:right">
+<div id="donateform"><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+  Your name<br/><input type="text" name="custom" /> <br/>
+<span id="donationentice">(leave blank to be anonymous)</span><br/><br/>
+
+  How much do you want to donate? (US dollars)<br/>
+  <input id="donation_amount" type="text" name="amount" /><br/>
+<span id="donationentice">Donors of $80 or more can add a link to a website!</span><br/>
+  <div id="linked_donation" style="display:none">
+    <h4>Submit a Link!</h4>
+    <p>You can submit a link. Leave these blank if you don't want to submit a link.</p>
+    The link text you want to appear:
+    <input type="text" name="invoice"/><br/>
+
+    The URL you want to link to:
+    <input type="text" name="item_number"/><br/>
+  </div>
+  
+  <input type="hidden" name="cmd" value="_donations">
+
+  <input type="hidden" name="notify_url" value="http://bikeacrossthe.us/backend/paypal_ipn2">
+  <input type="hidden" name="business" value="kickfornick@bikeacrossthe.us">
+  <input type="hidden" name="item_name" value="Donation to help 'Kick for Nick'"> 
+  <input type="hidden" name="return" value="http://bikeacrossthe.us/main/thanks">
+  
+  <input type="hidden" name="page_style" value="PayPal">
+
+  <input type="hidden" name="no_shipping" value="1">
+  <input type="hidden" name="cn" value="Website">
+  <input type="hidden" name="currency_code" value="USD">
+  <input type="hidden" name="tax" value="0">
+  <input type="hidden" name="lc" value="US">
+  <input type="hidden" name="bn" value="PP-DonationsBF">
+  <input type="hidden" name="hdrimg" value="http://bikeacrossthe.us/bikeacrosstheus.gif">
+  <input type="hidden" name="hdrbackcolor" value="CA2E19">
+  <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+
+  <img alt="" border="0" src="https://www..paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+</div>
+<script>
+
+$(function() {
+    var link_fields = $("#linked_donation");
+    // put a onchange handler on donation_amount
+    $("#donation_amount").keyup( function() {
+      var amount = parseInt(this.value);
+      if (amount != NaN && amount >= 80) {
+        link_fields.fadeIn();
+      } else {
+        link_fields.fadeOut();
+      }
+    });
+  });
+</script>
+
+  </div>
+!-->
+  <p>I'm proudly supporting <a href="http://kickfornick.com">Kick for Nick</a>. The target is to raise <strong>$4000 for kick for nick</strong></p>
+<p>I started this trip without enough personal funding, but I just sold my house in Texas and will be funding the rest of the trip myself. Any donations from this point forward will go 100% to <a href="http://kickfornick.com">Kick for Nick</a> 
+ <p>For any donations of $80 or more, we'll put a link to your website on the front page. This worked wonders for me <a href="http://onmac.net">previously</a>.</p>
+
+  
+  <h2>About Kick For Nick</h2>
+  <p>Kick for Nick is a small nonprofit based in Wilton, CT. Kick for Nick was started in honor of PFC. Nick Madaras by his family. Nick signed up for the Army when he was 18 and was sent to Iraq. While there he saw Iraqi children "kicking bags of rocks around the streets trying to play soccer and realized these kids are no different than him. When he was home on leave in July 2006, he rounded up as many balls as he could to bring back to the children of Iraq". "Nick was killed in action by an IED on September 3rd, 2006 at the age of 19." Kick for Nick continues his mission of distributing soccer balls to children who need them the most.</p>
+  <h3>Learn More</h3>
+  <ul>
+    <li><a href="http://kickfornick.com">Kick for Nick</a></li>
+    <li><a href="http://www.youtube.com/watch?v=uo0iPO8uYFk">(video) ESPN special on Kick for Nick</a></li>
+
+  </ul>
+</div>
+
+
+  <!-- Twitter Update Code -->
+<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/bikeacrosstheus.json?callback=twitterCallback2&count=10"></script>
+<script type="text/javascript" src="ourlocation.js"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1088056-5");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+
+
+  </div>
+ </body>
+</html>
+

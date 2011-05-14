@@ -1,0 +1,192 @@
+table td {
+  padding: 0px;
+}
+twitter_div {
+	
+}
+
+twitter-title {
+	
+}
+
+twitter_update_list {
+	
+}
+#flickr_badge_uber_wrapper { width:100px;}
+#flickr_badge_wrapper {padding:10px 0 10px 0;}
+.flickr_badge_image {margin:0 0px 0px 0px;
+	display: inline;
+}
+.flickr_badge_image img {border: 3px solid #520000;}
+#flickr_badge_source {text-align:left; margin:0 10px 0 10px;}
+#flickr_badge_icon {float:left; margin-right:5px;}
+#flickr_www { padding:0 10px 0 10px !important; font: 11px Arial, Helvetica, Sans serif !important; color:#3993ff !important;}
+#flickr_badge_uber_wrapper a:hover,
+#flickr_badge_uber_wrapper a:link,
+#flickr_badge_uber_wrapper a:active,
+#flickr_badge_uber_wrapper a:visited {text-decoration:none !important; background:inherit !important;color:#3993ff;}
+#flickr_badge_wrapper {}
+#flickr_badge_source {padding:0 !important; font: 11px Arial, Helvetica, Sans serif !important; color:#666666 !important;}
+
+#map{ height: 180px; width: 865px; 
+border-top: 4px solid #520000;
+border-left: 4px solid #520000;
+border-right: 4px solid #520000;
+	color: #353535;
+
+}
+
+
+#donateform{
+width: 100%;
+font-size: 13px;
+padding: 10px;
+background-color: #ffea56;
+}
+#donationentice{
+font-size: 10px;
+}
+
+#container{
+text-align: left;
+width: 865px;
+margin: 0 auto;
+}
+body {
+	text-align: center;
+	color: #fff;
+	background-color: #ca2e19;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+h1.banner { background: url(bikeacrosstheus.gif) no-repeat; width: 396px; height: 67px; padding: 10px; margin-top: 20px;}
+h1.banner span { display: none; width: 396px; }
+div#TB_ajaxContent h2{
+	padding-top: 10px;
+}
+div#TB_ajaxContent h3{
+	padding-top: 10px;
+}
+
+div#TB_ajaxContent li{
+	list-style-position: inside;
+	
+}
+div.menu{
+	width: 300px;
+	float: right;
+	margin: 0;
+	padding: 0;
+	padding-top: 5px;
+	text-align: right;
+}
+div.menu ul{
+}
+div.menu ul li{
+	min-width: 70px ;
+	font-size: 20px;
+	list-style-type: none;
+	padding: 10px;
+	display: inline;
+}
+h3 {
+margin-bottom: 0px;
+}
+a{	color: #080000;	text-decoration: underline;}
+
+#bike_pictures p a {
+	font-size: 10px;
+	line-height: 1px;
+	margin: 0;
+	padding: 0;
+}
+a:hover{	color: #FFF;}
+#bike_latest{
+	width: 550px;
+	float: left;
+}
+#bike_latest ul{
+	padding: 0;
+	letter-spacing: -0.02em;
+	word-spacing: .2em;
+	text-decoration: none;
+	font-size: 1em;
+}
+#bike_latest ul li{
+	border-bottom: 2px solid #520000;
+	font-variant: normal;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	list-style-type: none;
+}
+#bike_latest a{	color: #080000;	text-decoration: underline;}
+#bike_latest a:hover{	color: #FFF;	text-decoration: underline;}
+#bike_pictures{
+	width: 100px;
+	float: left;
+	padding-left: 20px;
+}
+#bike_stats{
+	float: left;
+	width: 846px;
+	height: 65px;
+	padding: 10px;
+	margin-bottom: 20px;
+	background-color: #17618a;
+	border-right: 4px solid #520000;
+	border-bottom: 4px solid #520000;
+	border-left: 4px solid #520000;
+}
+#bike_stats ul li{
+	display: inline;
+	padding-right: 40px;	
+}
+#bike_sponsors{
+	float: left;
+	width: 186px;
+}
+#bike_sponsors p{
+	font-size: 10px;
+	background-color: #71190c;
+	padding: 5px;
+	border: 1px dotted #520000;
+}
+#bike_sponsors p a{
+	color: #ffceb3;
+	font-size: 11px;
+	font-weight: bold;
+}
+#bike_sponsors ul li{
+	list-style-type: none;
+	color: #71190c;
+	font-size: 13px;
+}
+#bike_map{
+	
+}
+#bike_about{
+	visibility: hidden;
+}
+
+#bike_stats_large{
+	font-size: 67px;
+	letter-spacing: -0.1em;
+	color: #fccbbc;
+	padding: 0px;
+	margin: 0px;
+}
+#bike_donate{
+	visibility: hidden;
+}
+#bike_notliveyet{
+	background-color: #ffea56;
+	color: #0f0f0f;
+	padding: 10px;
+	font-size: 13px;
+	border-top: solid 4px #520000;
+	border-bottom: 4px solid #520000;
+	width: 852px;
+}
+#bike_contact{
+	visibility: hidden;
+}
